@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+
+.chiefs {
+  position: relative;
+
+  .helmet_color {
+    fill: #E31837;
+  }
+
+  #qb-jersey-number, #rb-jersey-number, #te-jersey-number, #wr-jersey-number {
+    -webkit-text-stroke: 1px #dcda05;
+    color: white;
+  }
+
+  .color_1 {
+    fill: #E31837;
+  }
+
+  .color_2 {
+    fill: #FFB81C;
+  }
+
+}
+
+.colts {
+  #qb-jersey-number, #rb-jersey-number, #te-jersey-number, #wr-jersey-number {
+    -webkit-text-stroke: 1px black;
+    color: white;
+  }
+
+  .color_1 {
+    fill: #003087;
+  }
+
+  .color_2 {
+    fill: white;
+  }
+
+  .helmet_color {
+    fill: white;
+  }
+
+  //running back leg stripe
+  #path1625 {
+    fill: #003087;
+  }
+}
+
+.cowboys {
+  #qb-jersey-number, #rb-jersey-number, #te-jersey-number, #wr-jersey-number {
+    -webkit-text-stroke: 1px black;
+    color: white;
+  }
+  .color_1 {
+    fill: #003594;
+  }
+  .color_2 {
+    fill: #7F9695;
+  }
+  .helmet_color {
+    fill: #869397;
+  }
+
+}
+
+.rams {
+  #qb-jersey-number, #rb-jersey-number, #te-jersey-number, #wr-jersey-number {
+    -webkit-text-stroke: 1px black;
+    color: #FFD100;
+  }
+  .color_1 {
+    fill: #003594;
+  }
+  .color_2 {
+    fill: #FFD100;
+  }
+  .helmet_color {
+    fill: #003594;
+  }
+
+  #path2511, #path2443 {
+    fill: #FFD100
+  }
+
+}
+
+
+.bengals {
+  position: relative;
+
+  .helmet_color {
+    fill: #ed5f14;
+  }
+
+  #qb-jersey-number, #wr-jersey-number, #rb-jersey-number, #te-jersey-number {
+    -webkit-text-stroke: 1px black;
+    color: white;
+  }
+
+  .color_1 {
+    fill: #ed5f14;
+  }
+
+  .color_2 {
+    fill: #20200b;
+  }
+
+}
+
+#qb-jersey-number {
+  position: absolute;
+  left: 139px;
+  top: 95px;
+  font-size: 33px;
+}
+
+#wide-receiver-div, #running-back-div, #tight-end-div, #wide-receiver-name, #running-back-name, #tight-end-name {
+  transform: scaleX(-1);
+}
+
+
+#wr-jersey-number {
+  position: absolute;
+  left: 138px;
+  top: 115px;
+  font-size: 26px;
+  transform: rotateZ(324deg) scaleX(-1);
+
+}
+
+#rb-jersey-number {
+  position: absolute;
+  left: 124px;
+  top: 112px;
+  font-size: 28px;
+  transform: scaleX(-1);
+}
+
+#wr-jersey-name {
+  position: absolute;
+  left: 134px;
+  top: 115px;
+  font-size: 6px;
+  transform: rotateZ(335deg) scaleX(-1);
+  color: white;
+  font-weight: bold;
+}
+
+#te-jersey-number {
+  position: absolute;
+  left: 96px;
+  top: 95px;
+  font-size: 26px;
+  transform: rotateZ(310deg) scaleX(-1);
+
+}
+
+#selects {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+}
+
+#inputs {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1000px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+#leagueName {
+  font-family: 'Luckiest Guy', cursive;
+  -webkit-text-stroke: 1px black;
+  color: yellow;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+#leagueChampion {
+  font-family: 'Luckiest Guy', cursive;
+  -webkit-text-stroke: 1px black;
+  color: yellow;
+  font-size: 40px;
+}
+
+#teamName {
+  font-family: 'Luckiest Guy', cursive;
+  -webkit-text-stroke: 1px black;
+  color: yellow;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+#poster {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1100px;
+  height: 600px;
+  background: url('./img/football-field.png');
+  background-size: cover;
+}
+
+.player-name {
+  position: absolute;
+  font-family: 'Luckiest Guy', cursive;
+  -webkit-text-stroke: 1px black;
+  color: yellow;
+  font-size: 20px;
+  width: 200px;
+}
+
+
