@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Fantasy-Football-Poster/static/css/main.51d011cc.css",
+    "main.js": "/Fantasy-Football-Poster/static/js/main.71a0f13b.js",
+    "static/js/787.dde8bc5a.chunk.js": "/Fantasy-Football-Poster/static/js/787.dde8bc5a.chunk.js",
+    "static/media/football-field.png": "/Fantasy-Football-Poster/static/media/football-field.8707d49de46d137a0646.png",
+    "static/media/logo.svg": "/Fantasy-Football-Poster/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Fantasy-Football-Poster/index.html",
+    "main.51d011cc.css.map": "/Fantasy-Football-Poster/static/css/main.51d011cc.css.map",
+    "main.71a0f13b.js.map": "/Fantasy-Football-Poster/static/js/main.71a0f13b.js.map",
+    "787.dde8bc5a.chunk.js.map": "/Fantasy-Football-Poster/static/js/787.dde8bc5a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51d011cc.css",
+    "static/js/main.71a0f13b.js"
+  ]
+}
